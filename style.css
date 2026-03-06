@@ -1,0 +1,62 @@
+body{
+font-family: Arial;
+background: linear-gradient(135deg,#ffd1dc,#cdb4db);
+height:100vh;
+display:flex;
+justify-content:center;
+align-items:center;
+text-align:center;
+}
+
+.container{
+background:white;
+padding:40px;
+border-radius:20px;
+box-shadow:0 10px 30px rgba(0,0,0,0.2);
+}
+
+h1{
+color:#ff2e88;
+}
+
+.countdown{
+display:flex;
+gap:20px;
+justify-content:center;
+margin:30px 0;
+}
+
+.box{
+background:#f8f8f8;
+padding:20px;
+border-radius:15px;
+width:80px;
+}
+
+.box span{
+font-size:25px;
+font-weight:bold;
+color:#7b2cbf;
+}
+
+button{
+background:linear-gradient(45deg,#ff4d8d,#a855f7);
+border:none;
+padding:15px 30px;
+color:white;
+font-size:18px;
+border-radius:12px;
+cursor:pointer;
+}
+
+button:hover{
+transform:scale(1.05);
+}
+
+#card{
+margin-top:30px;
+}
+
+.hidden{
+display:none;
+}
